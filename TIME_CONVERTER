@@ -1,0 +1,17 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+int h , m , s, i;    //declaring required variables
+
+cout<<"Enter the current time : \nHours? : \nminutes? : \nseconds? : "<<h<<m<<s<<endl;        //printing out the statement for the user to input values
+cin>>h;     // storing in the value of hours
+cin>>m;     // storing the value of minutes 
+cin>>s;     // storing the value of seconds 
+
+i = (h * 3600) + (m * 60) + (s * 1);                    //time calculation in seconds 
+
+cout<<" The total time in seconds is : "<<i<<endl;     // printing out the result after calculation is done       
+
+return 0;
+}
